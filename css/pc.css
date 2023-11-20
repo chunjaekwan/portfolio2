@@ -1,0 +1,71 @@
+/* pc.css */
+body {
+    background-color: var(--bg-color1);
+    color: var(--text-color);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    /* outline: 2px solid red; */
+    padding-left: 20px;
+    padding-left: 20px;
+    
+}
+
+header {
+    /* background: #ccc; */
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: var(--bg-color2);
+    border-bottom: 15px solid var(--bg-color1);
+}
+
+header a {
+    color: var(--text-color);
+    font-size: 22px;
+    line-height: 22px;
+}
+
+header .icons li {
+    display: inline-block;
+    margin-left: 1em;
+}
+
+#title {
+    /* background-color: pink; */
+    height: calc(100vh - 100px);
+
+    background-image: url('../images/profile.jpg');
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: contain;
+}
+
+#title h2 {
+    font-size: 70px;
+    /* outline: 2px solid var(--main-color); */
+    /* font-size: 4.3vw; */
+}
+
+#title p {
+    color: var(--text-color2);
+}
+
+#title {
+    display: flex;
+    align-items: center;
+
+}
+
+#title h2 {
+    margin-bottom: 40px;
+}
+
+#title p { margin-bottom: 60px; }
+
+
