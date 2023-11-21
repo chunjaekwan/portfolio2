@@ -162,3 +162,27 @@ header .icons li {
 #projects .item-list li .skills span {
     margin-right: 1em;
 }
+
+
+footer {
+    /* background: #ccc; */
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* background-color: var(--bg-color2); */
+    border-bottom: 15px solid var(--bg-color1);
+}
+
+footer a {
+    color: var(--text-color);
+    font-size: 22px;
+    line-height: 22px;
+}
+
+footer .icons li {
+    display: inline-block;
+    margin-left: 1em;
+}
