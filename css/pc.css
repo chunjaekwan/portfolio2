@@ -36,6 +36,15 @@ header .icons li {
     margin-left: 1em;
 }
 
+/* .hero { 
+    background-image: url('../images/profile.jpg');
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: contain;
+    max-width: 1200px;
+    margin: 0 auto;
+} */
+
 #title {
     /* background-color: pink; */
     height: calc(100vh - 100px);
@@ -68,4 +77,29 @@ header .icons li {
 
 #title p { margin-bottom: 60px; }
 
+#skills {
+    margin-top: 100px;
+    padding: 80px 20px;
+    border-top: 1px solid rgb(255, 255, 255, 0.3);
+}
 
+#skills h3 {
+    font-size: 34px;
+}
+
+#skills .skill-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#skills .skill-list li {
+    /* outline: 1px solid red; */
+    width: calc(100% / 3);
+    padding-bottom: 70px;
+    padding-right: 50px;
+}
+
+#skills .skill-list li p {
+    color: var(--text-color2);
+    margin-top: 1em;
+}
