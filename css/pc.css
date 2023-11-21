@@ -103,3 +103,62 @@ header .icons li {
     color: var(--text-color2);
     margin-top: 1em;
 }
+
+#skills h2 { display: none; }
+
+
+#projects .title-group { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 74px;
+}
+
+#projects h2 {
+    font-size: 62px;
+}
+
+#projects .container {
+    /* border: 1px solid red; */
+    padding-right: 20px;
+}
+
+#projects .item-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+}
+
+#projects .item-list li {
+    /* border: 2px solid green; */
+    width: calc(50% - 10px);
+    margin-bottom: 70px;
+
+}
+
+#projects .item-list li img {
+    width: 100%;
+    /* 이미지 비율 지정: 가로/세로 */
+    aspect-ratio: 4/3;
+}
+
+#projects .item-list li h3 {
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    color: var(--text-color);
+
+}
+
+#projects .item-list li .skills {
+    font-size: 14px;
+    color: var(--text-color2);
+    text-transform: uppercase;
+    
+}
+
+#projects .item-list li .skills span {
+    margin-right: 1em;
+}
